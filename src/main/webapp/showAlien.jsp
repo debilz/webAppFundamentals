@@ -6,12 +6,21 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<link rel="stylesheet" href="main.css">
 </head>
-<body bgcolor = "blue">
-hello
-	<%
-		Alien a1 = (Alien)request.getAttribute("alien");
-		out.println(a1);
-	%>
+<body>
+<div class="split left">
+	<div class="centered text">
+		<%  
+			Alien a1 = (Alien)request.getAttribute("alien");
+			out.println("<span class=\"alienspan\">"+ a1 +"</span>");
+		%>
+	</div>
+</div>
+<div class="split right">
+	<div class="centered">
+		<img src="webPictures/split_right.jpg" alt="">
+	</div>
+</div>
 </body>
 </html>

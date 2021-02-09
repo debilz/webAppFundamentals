@@ -29,6 +29,12 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.centered text{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 /* Style the image inside the centered container, if needed */
 .centered img {
@@ -38,4 +44,9 @@
 
 a {
 	font-size: 200%;
+}
+
+.alienspan{
+  text-align: center;
+  border: 3px white;
 }

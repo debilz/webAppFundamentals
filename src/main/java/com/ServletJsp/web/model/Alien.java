@@ -21,6 +21,6 @@ public class Alien {
 	}
 	
 	public String toString() {
-		return "id = " + id + " name = " + name;
+		return "Hello id number: " + id + "<br/> AKA: " + name;
 	}
 }
